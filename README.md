@@ -59,9 +59,13 @@ The **UvU-Net Generator** is a custom ensemble architecture that combines:
 │   ├── utils.py
 │   ├── UvU_Discriminator.py
 │   └── UvU_Net_Generator.py
-├── Output                                  # Generated outputs
+├── Output
 │   ├── Pix2Pix Output
-│   └── UvU Output
+│   │   ├── input_99_P2P.png                # Input sketch for Pix2Pix
+│   │   └── y_gen_99_P2P.png                # Generated image from Pix2Pix
+│   ├── UvU Output
+│   │   ├── input_99_UVU.png                # Input sketch for UvU-Net
+│   │   └── y_gen_99_UVU.png                # Generated image from UvU-Net
 ├── Sample_dataset                          # Input and Sobel-processed images
 │   ├── input_images
 │   ├── sobel_images
@@ -114,17 +118,6 @@ The dataset used for this project includes input outline sketches and Sobel-proc
 
 ---
 
-### Updated Project Structure
-```plaintext
-.
-├── Output
-│   ├── Pix2Pix Output
-│   │   ├── input_99_P2P.png          # Input sketch for Pix2Pix
-│   │   └── y_gen_99_P2P.png          # Generated image from Pix2Pix
-│   ├── UvU Output
-│   │   ├── input_99_UVU.png          # Input sketch for UvU-Net
-│   │   └── y_gen_99_UVU.png          # Generated image from UvU-Net
-```
 
 These images are displayed side-by-side for comparison. You can directly visualize the improvements brought by the UvU-Net over Pix2Pix for better output quality and detail recovery.  
 
