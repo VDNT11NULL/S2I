@@ -101,11 +101,41 @@ The dataset used for this project includes input outline sketches and Sobel-proc
 ---
 
 ## Results
+Here’s the updated section of the README with paths corrected and side-by-side input and output images for both models displayed in half-size for better presentation:
+
+---
+
+## Results
+
 ### Pix2Pix Output
-![Pix2Pix Output](Output/Pix2Pix Output/y_gen_99_P2P.png)
+| **Input Sketch**                     | **Generated Output**                |
+|--------------------------------------|--------------------------------------|
+| ![Pix2Pix Input](Output/Pix2Pix%20Output/input_99_P2P.png) | ![Pix2Pix Output](Output/Pix2Pix%20Output/y_gen_99_P2P.png) |
+
+---
 
 ### UvU Output
-![UvU Output](Output/UvU Output/y_gen_99_UVU.png)
+| **Input Sketch**                     | **Generated Output**                |
+|--------------------------------------|--------------------------------------|
+| ![UvU Input](Output/UvU%20Output/input_99_UVU.png) | ![UvU Output](Output/UvU%20Output/y_gen_99_UVU.png) |
+
+---
+
+### Updated Project Structure
+```plaintext
+.
+├── Output
+│   ├── Pix2Pix Output
+│   │   ├── input_99_P2P.png          # Input sketch for Pix2Pix
+│   │   └── y_gen_99_P2P.png          # Generated image from Pix2Pix
+│   ├── UvU Output
+│   │   ├── input_99_UVU.png          # Input sketch for UvU-Net
+│   │   └── y_gen_99_UVU.png          # Generated image from UvU-Net
+```
+
+These images are displayed side-by-side for comparison. You can directly visualize the improvements brought by the UvU-Net over Pix2Pix for better output quality and detail recovery.  
+
+---
 
 ### Metric Analysis
 - **FID**: 34.7 (UvU-Net) vs. 45.2 (Pix2Pix)
