@@ -34,15 +34,14 @@ Reconstructing realistic facial images from outline sketches is a complex task d
 
 ## Proposed Solution
 Our solution integrates two models into a seamless pipeline:
-1. **CycleGAN**: Translates outline sketches to colored facial images.
-2. **UvU-Net Generator**: Enhances the visual quality and recovers fine details using a novel ensemble method.
+**UvU-Net Generator**: Enhances the visual quality and recovers fine details using a novel ensemble method.
 
 ---
 
 ## UvU-Net Generator
 The **UvU-Net Generator** is a custom ensemble architecture that combines:
-- A **Discriminator** to ensure realistic outputs.
-- A **Skip-Connected U-Net** for retaining structural details while upsampling.
+- A **Ensemble U-Net based Architecture** to ensure realistic outputs.
+- A **residual skipping in the outer UNet helps in minimizing the trainable parameters whereas the feature loss is componsated by Inner Unet on the behalf of Outer Unet**.
 
 ---
 
