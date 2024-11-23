@@ -98,13 +98,6 @@ The dataset used for this project includes input outline sketches and Sobel-proc
 
 ---
 
----
-
-## Results
-Here’s the updated section of the README with paths corrected and side-by-side input and output images for both models displayed in half-size for better presentation:
-
----
-
 ## Results
 
 ### Pix2Pix Output
