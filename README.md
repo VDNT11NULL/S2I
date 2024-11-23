@@ -75,7 +75,7 @@ The **UvU-Net Generator** is a custom ensemble architecture that combines:
 ## How to Use
 1. Clone the repository:
    ```bash
-   git clone https://github.com/VDNT11NULL/automatic-image-colorization.git
+   git clone https://github.com/VDNT11NULL/S2I.git
    ```
 2. Install dependencies:
    ```bash
