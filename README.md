@@ -102,10 +102,10 @@ The dataset used for this project includes input outline sketches and Sobel-proc
 
 ## Results
 ### Pix2Pix Output
-![Pix2Pix Output](Output/Pix2Pix Output/sample_image.png)
+![Pix2Pix Output](Output/Pix2Pix Output/y_gen_99_P2P.png)
 
 ### UvU Output
-![UvU Output](Output/UvU Output/sample_image.png)
+![UvU Output](Output/UvU Output/y_gen_99_UVU.png)
 
 ### Metric Analysis
 - **FID**: 34.7 (UvU-Net) vs. 45.2 (Pix2Pix)
